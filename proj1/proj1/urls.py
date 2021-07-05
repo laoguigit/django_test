@@ -20,3 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app1.urls')),
 ]
+
+
+print('***************** proj1.urls.py init do something **************************')
