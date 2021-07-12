@@ -19,6 +19,7 @@ from app1 import views
 
 urlpatterns = [
     path('v1/', views.f1),
+    path('login/', views.f1),
 ]
 
 

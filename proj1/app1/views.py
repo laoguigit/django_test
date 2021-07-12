@@ -18,6 +18,6 @@ def f1(request):
     print(ip)
 
     # return HttpResponse('<h1>xxxxx</h1>')
-    return render(request, 'app1/1.html')
+    return render(request, 'app1/login.html')
 
 print('***************** app1.views.py init do something **************************')
