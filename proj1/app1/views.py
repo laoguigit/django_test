@@ -16,6 +16,8 @@ def f1(request):
     else:
         ip = request.META['REMOTE_ADDR']
     print(ip)
-    return HttpResponse('<h1>xxxxx</h1>')
+
+    # return HttpResponse('<h1>xxxxx</h1>')
+    return render(request, 'app1/1.html')
 
 print('***************** app1.views.py init do something **************************')
